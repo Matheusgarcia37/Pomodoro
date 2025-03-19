@@ -160,7 +160,7 @@ function switchMode(mode) {
 }
 
 function playAlarm() {
-    const audio = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3');
+    const audio = new Audio('assets/bellding.wav');
     audio.play();
 }
 
